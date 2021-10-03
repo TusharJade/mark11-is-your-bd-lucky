@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is your birthday lucky</title>
+    <link href="/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Is your birthday lucky?</h1>
+
+
+        <label for="birthdate">Date of birth:</label>
+        <input id="birthdate" type="date" />
+
+
+
+        <label for="luckyno">Lucky number:</label>
+        <input id="luckyno" type="number" min="1" oninput="validity.valid||(value='');" />
+
+
+        <button id="checkno">Check number</button>
+
+        <p id="output"></p>
+
+        <h2>Notice</h2>
+        <p>We do not store any data which you use here</p>
+
+        <hr>
+
+        <footer class="footer">
+            <h3>I am available on</h4>
+                <ul class="list-non-bullet">
+                    <li class="list-item-inline">
+                        <a class="link" href="https://github.com/TusharJade?tab=repositories">GitHub</a>
+                    </li>
+                    <li class="list-item-inline">
+                        <a class="link" href="https://www.linkedin.com/in/tushar-jade-a5aa33183">Linkdin</a>
+                    </li>
+                    <li class="list-item-inline">
+                        <a class="link" href="https://twitter.com/TusharJade99?s=09">Twitter</a>
+                    </li>
+                    <li class="list-item-inline">
+                        <a class="link" href="https://www.instagram.com/tushar_jade_98/">Instagrame</a>
+                    </li>
+                </ul>
+        </footer>
+
+    </div>
+    <script src="/app.js" text="type"></script>
+</body>
+
+</html>
